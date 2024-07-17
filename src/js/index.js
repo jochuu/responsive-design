@@ -1,5 +1,6 @@
 import '../css/cssreset.css';
 import '../css/style.css';
+import 'lazysizes';
 
 const index = function internalIndex() {
   // setup elements
@@ -22,4 +23,4 @@ const index = function internalIndex() {
 };
 
 // append div to document
-document.getElementById('content').appendChild(index());
+document.getElementById('container').appendChild(index());
