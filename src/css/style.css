@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'glacial-bold';
+	src: url('../fonts/glacialindifference-bold-webfont.woff2') format('woff2'),
+		url('../fonts/glacialindifference-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'glacial-italic';
+	src: url('../fonts/glacialindifference-italic-webfont.woff2') format('woff2'),
+		url('../fonts/glacialindifference-italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'glacial-regular';
+	src: url('../fonts/glacialindifference-regular-webfont.woff2') format('woff2'),
+		url('../fonts/glacialindifference-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+:root {
+	--main: #ecd4c4;
+	--accent-1: #5A5A76;
+	--accent-2: #2a2c4b;
+
+	--black: #111111;
+	--offblack: #222222;
+	--white: #fcfcfc;
+
+	font-family: 'GlacialIndifference', sans-serif;
+	background: var(--accent-2);
+	color: var(--main);
+	text-transform: lowercase;
+	letter-spacing: 0.07rem;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	font-size: 2.2rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.4rem;
+}
