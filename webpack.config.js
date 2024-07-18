@@ -7,7 +7,6 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/js/index.js',
-    // another: './src/js/another-module.js',
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -51,7 +50,6 @@ module.exports = {
       title: 'development',
       template: 'src/index.html',
       filename: 'index.html',
-      // inject: true, // This is the default behavior, so it's optional to include this line
     }),
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
