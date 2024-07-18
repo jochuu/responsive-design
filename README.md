@@ -2,6 +2,10 @@
 
 responsive portfolio website showcasing projects achieved up until this point
 
+[web preview](https://i.imgur.com/QeUlYKf.png)
+[tablet preview](https://i.imgur.com/qza8v0d.png)
+[mobile preview](https://i.imgur.com/DDEIToG.png)
+
 [live demo](https://jochuu.github.io/responsive-design/)
 
 outcomes:
