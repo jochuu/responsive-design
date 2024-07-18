@@ -8,7 +8,7 @@
     "watch": "npx webpack --watch",
     "start": "webpack serve --open",
     "server": "node server.js",
-    "build": "webpack",
+    "build": "webpack build",
     "deploy": "gh-pages -d dist",
     "docs": "npx jsdoc src/js/index.js"
   },
